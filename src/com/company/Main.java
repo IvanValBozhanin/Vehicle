@@ -29,7 +29,6 @@ import com.company.vehicles.Vehicle;
 public class Main {
 
     public static void main(String[] args) {
-        Vehicle.setMAKE("Seer");
         System.out.println("Manufacturer: " + Vehicle.MAKE);
         System.out.println("Number of vehicles manufactured: " + Vehicle.numVehicles);
         Vehicle v1 = new Vehicle("Vision");

@@ -1,7 +1,7 @@
 package com.company.vehicles;
 
 public class Vehicle {
-    public static String MAKE = "Augur";
+    public final static String MAKE = "Augur";
     public static int numVehicles = 0;
     private String chassisNo;
     private String model;
@@ -30,10 +30,6 @@ public class Vehicle {
 
     public static String getMAKE() {
         return MAKE;
-    }
-
-    public static void setMAKE(String MAKE) {
-        Vehicle.MAKE = MAKE;
     }
 
     @Override
